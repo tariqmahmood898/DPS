@@ -1,0 +1,67 @@
+/* Compare this snippet from dps-website/src/assets/styles/Login.css: */
+.login-container {
+  padding: 10px;
+}
+
+.login-section {
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 10px;
+}
+
+.login-image {
+  max-width: auto;
+  
+}
+
+.login-text {
+  max-width: 600px;
+  color: #f3c80a;
+}
+
+.login-text h1 {
+  font-size: 1.5em;
+  padding: 10px ;
+  margin-bottom: 15px;
+  background: linear-gradient(to right, #9e139375, #0a0ef359);
+  box-shadow: 5px 9px 18px rgb(255 6 229 / 65%);
+}
+
+.login-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #eee;
+  
+}
+
+.cnt-card {
+  flex: 1;
+  padding: 30px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.left-card {
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px; /* spacing between boxes */
+}
+
+.box {
+  flex: 1 1 22%; /* 4 boxes per row on desktop */
+  min-width: 150px;
+  background: #4e73df;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+

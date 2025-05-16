@@ -1,0 +1,46 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.btn {
+  padding: 8px 17px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  margin: 1px 5px;
+  transition: background 0.6s;
+}
+
+/* Unique colors for each button */
+.Developer{
+  background-color: aliceblue;
+}
+.pool-btn {
+  background-color: #078fa7d8;
+  
+}
+
+.Buy-btn {
+  background-color: #ca3fec;
+  
+}
+
+.visit-btn {
+  background-color: #1eb37ce7;
+}
+
+.Dps-btn {
+  background-color: #ff0066;
+}
+
+/* Hover effect */
+.btn:hover {
+  opacity: 0.85;
+}
