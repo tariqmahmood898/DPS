@@ -29,7 +29,7 @@ function Home() {
       
 
       <section className="features">
-        <h2>Key Features</h2>
+        <h2> 💎 Key Features </h2>
         <div className="feature-list">
           <div className="feature-item">
       
